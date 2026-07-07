@@ -1,0 +1,6 @@
+private/*
+!private/_template/
+
+*.bak
+.DS_Store
+Thumbs.db
