@@ -72,7 +72,7 @@ IDは単なる識別子ではなく、「いつ、どの世界線に存在した
 CHARACTER_REPO_PATH=C:\Users\yourname\DEF-Character
 ```
 
-DEFは起動時に `CHARACTER_REPO_PATH` を優先して読み込みます。旧形式（`data/characters/`）もフォールバックとして引き続き動作します。
+DEFは起動時に `CHARACTER_REPO_PATH` を優先して読み込みます。旧形式（`data/public/characters/` および `data/private/characters/`）もフォールバックとして引き続き動作します。
 
 ---
 
@@ -148,7 +148,7 @@ private/
 **出自（origin_type）**
 - [ ] `"derivative"`（二次創作）は `publish_restriction: "private"` 固定
 - [ ] `"reconstructed_persona"`（歴史人物の再構築）は `copyright_expired: true`（没後70年以上）の場合のみ公開可
-- [ ] `"personification"`（既存IPの擬人化）は `ip_rightholder` が設定されている
+- [ ] `"personification"`（既存IPの擬人化）は `ip_title` と `ip_rightholder` が設定されている
 - [ ] `is_real_person: true` の場合は `publish_restriction: "private"` 固定
 
 ---
