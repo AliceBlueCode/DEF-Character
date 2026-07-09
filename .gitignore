@@ -1,5 +1,6 @@
 private/*
 !private/_template/
+!private/MyLocalLLM/
 
 *.bak
 .DS_Store
