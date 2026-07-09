@@ -1,5 +1,7 @@
 # DEF-Character
 
+**[English »](README_en.md) | [繁體中文 »](README_zh-TW.md) | [简体中文 »](README_zh-CN.md) | [한국어 »](README_ko.md) | [Español »](README_es.md)**
+
 > **あなたのキャラ、パブリックにしたくないですか？**
 
 ---
