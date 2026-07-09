@@ -1,0 +1,74 @@
+﻿{
+  "_new_YYYYMMDD": {
+    "_note": "キャラクターの概要メモ（任意）",
+    "owner": "AliceBlueCode",
+    "base_profile": {
+      "name": "キャラクター名",
+      "name_reading": {
+        "family_name": null,
+        "given_name": "よみがな",
+        "alias": []
+      },
+      "identity_prompt": "一人称視点のキャラクター設定。「私は〜」という形で書く。",
+      "identity_detail": "詳細設定。背景・個人的体験・弱さ・怒り・ユーモアなど。",
+      "content_policy": {
+        "rating_sexual": "general",
+        "rating_violence": "general",
+        "is_real_person": false,
+        "is_existing_ip": false,
+        "ip_title": null,
+        "ip_rightholder": null,
+        "deceased_year": null,
+        "copyright_expired": false,
+        "visibility": "private",
+        "mentions_real_person": false,
+        "mentioned_persons": [],
+        "origin_type": "original"
+      },
+      "persona_attributes": {
+        "gender": "女",
+        "gender_identity": "女",
+        "romantic_interest": ["男", "女", "その他"],
+        "actual_age": null,
+        "appearance_age": 20,
+        "appearance_description": "外見の説明。",
+        "roles": [],
+        "primary_role": "",
+        "past_life": null,
+        "outfits": {
+          "default": "デフォルト衣装。",
+          "casual": "カジュアル衣装。"
+        },
+        "era_presets": null,
+        "speech_style": {
+          "first_person": "私",
+          "address_partner": "あなた",
+          "tone": "話し方・口調の説明。"
+        },
+        "cultural_background": {
+          "birthplace": "",
+          "raised_in": "",
+          "dominant_culture": ""
+        }
+      },
+      "default_model_config": {
+        "text_model_id": null,
+        "image_model_id": null,
+        "audio_id": null,
+        "voicevox_speaker_id": null,
+        "gemini_tts_voice": null,
+        "irodori_speaker_id": "",
+        "location": "local"
+      },
+      "visual_references": {
+        "base_image_path": null,
+        "features": "画像生成用の英語特徴タグ（詳細）",
+        "appearance_tags": "1girl, ..."
+      },
+      "player_type": "ai",
+      "image_color": "#888888"
+    },
+    "relationships": {},
+    "game_rules_sheets": {}
+  }
+}

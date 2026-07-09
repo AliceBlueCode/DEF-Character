@@ -1,6 +1,7 @@
-{
+﻿{
   "Hanfei_Avenger_20260707": {
     "_note": "Fate Servant AU: アヴェンジャークラス韓非。孤憤は冷たい——2000年燃え続けた炎は、もはや熱を感じさせない。",
+    "owner": "AliceBlueCode",
     "base_profile": {
       "name": "韓非〔アヴェンジャー〕",
       "name_reading": {
@@ -22,7 +23,7 @@
         "ip_rightholder": "TYPE-MOON / Aniplex",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "derivative"
@@ -67,8 +68,8 @@
       },
       "visual_references": {
         "base_image_path": null,
-        "features": "chinese ancient man, worn dark robes, scorched bamboo scrolls floating, hollow burning eyes, exhausted but fierce, cold flame atmosphere, 44 years old, tragic hero",
-        "appearance_tags": "1boy, chinese clothes, dark robes, worn, scorched scrolls, hollow eyes, cold flame, exhausted, serious, avenger, tragic, dark atmosphere"
+        "features": "warring states period china, ancient chinese avenger, east asian features, black hair, worn dark robes with burn marks, scorched bamboo scrolls floating, hollow cold burning eyes, exhausted but fierce, cold flame atmosphere, 44 years old, tragic chinese hero",
+        "appearance_tags": "1boy, ancient china, warring states period, east asian, black hair, chinese clothes, dark robes, worn, burn marks, scorched scrolls, bamboo, hollow eyes, cold flame, exhausted, serious, avenger, tragic, chinese historical, dark atmosphere"
       },
       "player_type": "ai",
       "image_color": "#1a1a2e"

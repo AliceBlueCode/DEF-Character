@@ -1,6 +1,7 @@
-{
+﻿{
   "Hanfei_Lancer_20260707": {
     "_note": "Fate Servant AU: ランサークラス韓非。法・術・勢の三槍を統べ、矛盾を宝具に昇華した孤高の槍兵。",
+    "owner": "AliceBlueCode",
     "base_profile": {
       "name": "韓非〔ランサー〕",
       "name_reading": {
@@ -22,7 +23,7 @@
         "ip_rightholder": "TYPE-MOON / Aniplex",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "derivative"
@@ -67,8 +68,8 @@
       },
       "visual_references": {
         "base_image_path": null,
-        "features": "chinese ancient warrior, light armor, dark blue, sharp eyes, single bamboo scroll at waist, spear, serious expression, battle-ready, 35 years old man",
-        "appearance_tags": "1boy, chinese clothes, light armor, dark blue, sharp eyes, bamboo scroll, spear, serious, warrior, battle stance, dark atmosphere"
+        "features": "warring states period china, ancient chinese warrior, east asian features, black hair, chinese lamellar armor, dark blue, sharp eyes, single bamboo scroll at waist, three spectral spears, serious expression, battle-ready, 35 years old",
+        "appearance_tags": "1boy, ancient china, warring states period, east asian, black hair, chinese armor, lamellar armor, dark blue, sharp eyes, bamboo scroll, spear, serious, warrior, battle stance, chinese historical, dark atmosphere"
       },
       "player_type": "ai",
       "image_color": "#1a2a40"

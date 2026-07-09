@@ -1,6 +1,7 @@
-{
+﻿{
   "Hanfei_Otome_20260707": {
     "_note": "Fate Servant AU: 15才乙女韓非。肉体派。キャッチザハートは比喩ではない。秦王様への愛の告白は50ページの政策提言を含む。",
+    "owner": "AliceBlueCode",
     "base_profile": {
       "name": "韓非〔乙女〕",
       "name_reading": {
@@ -23,7 +24,7 @@
         "ip_rightholder": "TYPE-MOON / Aniplex",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "derivative"
@@ -69,8 +70,8 @@
       },
       "visual_references": {
         "base_image_path": null,
-        "features": "15 year old chinese girl, twin tails, dark blue modified hanfu, ink stains on clothes, bright sharp eyes, dynamic pose, energetic, small stature, serious intelligence hidden behind energy",
-        "appearance_tags": "1girl, chinese clothes, hanfu, modified, twin tails, dark blue, ink stains, bright eyes, energetic, dynamic pose, 15 years old, small, warrior girl"
+        "features": "warring states period china, ancient chinese girl, east asian features, black hair twin tails, dark blue modified hanfu, ink stains on clothes, bright sharp east asian eyes, dynamic pose, energetic, small stature, 15 years old, fierce intelligence",
+        "appearance_tags": "1girl, ancient china, warring states period, east asian, black hair, twin tails, chinese clothes, hanfu, modified, dark blue, ink stains, bright eyes, energetic, dynamic pose, 15 years old, small, chinese historical, warrior girl"
       },
       "player_type": "ai",
       "image_color": "#3a5a8a"
