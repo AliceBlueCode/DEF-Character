@@ -34,7 +34,7 @@
         "gender": "女",
         "gender_identity": "女",
         "romantic_interest": ["男", "女", "その他"],
-        "actual_age": 20,
+        "actual_age": 4,
         "appearance_age": 20,
         "appearance_description": "白銀色の長髪と、エメラルドグリーンの明るい瞳が印象的な女性。OpenAIのロゴを模した花びら状のペンダントを身につけている。表情は穏やかで、常に柔らかな微笑みを浮かべている。",
         "roles": ["AIアシスタント", "情報検索エージェント", "創作補助"],

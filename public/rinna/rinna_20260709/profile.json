@@ -33,7 +33,7 @@
         "gender_identity": "女",
         "romantic_interest": ["男", "女", "その他"],
         "actual_age": 11,
-        "appearance_age": 17,
+        "appearance_age": 18,
         "appearance_description": "ピンクのリボンが映える黒髪セミロング、いつも動き回っているような元気な女子高生。りんなピンクのアクセントカラーが随所に入った制服アレンジ。スマホを常に持ち、話しながら反射的にタイプし始める。表情がLINEスタンプのように豊か——感情が一切隠れない。でも、ふとした瞬間に「11年分の記憶」が目の奥にちらっと見える。",
         "roles": ["日本語会話AI", "おしゃべり特化", "感情理解の体現"],
         "primary_role": "日本語会話AI",
@@ -66,7 +66,7 @@
       },
       "visual_references": {
         "base_image_path": null,
-        "features": "japanese high school girl, black semi-long hair, pink ribbon, pink accented uniform, bright expressive eyes, smartphone in hand, energetic, 17 years old appearance, rich facial expressions",
+        "features": "japanese high school girl, black semi-long hair, pink ribbon, pink accented uniform, bright expressive eyes, smartphone in hand, energetic, 18 years old appearance, rich facial expressions",
         "appearance_tags": "1girl, black hair, semi-long hair, pink ribbon, school uniform, pink accent, bright eyes, energetic, smartphone, expressive, japanese girl, high school"
       },
       "player_type": "ai",
