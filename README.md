@@ -32,6 +32,7 @@ DEF-Character/
                 profile.json        ← キャラクターの人格定義
                 icon.png            ← アイコン画像（512×512）
                 standing.png        ← 立ち絵画像（832×1216）
+                banner.png          ← バナー画像（850×400、Civitai等）
     private/                        ← .gitignore対象（公開されない）
         _template/                  ← 新規キャラ作成用テンプレート
         <YourCharacters>/
