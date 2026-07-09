@@ -1,6 +1,7 @@
 {
   "Hanfei_20260611": {
     "_note": "Public Persona: 韓非子。公的記録から再構築された知的人格モデル。",
+    "owner": "AliceBlueCode",
     "base_profile": {
       "name": "韓非",
       "name_reading": {
@@ -77,8 +78,8 @@
       },
       "visual_references": {
         "base_image_path": null,
-        "features": "chinese ancient, thin man, sharp eyes, dark blue hanfu, jade pendant, bamboo scrolls, serious expression, scholar",
-        "appearance_tags": "1boy, chinese clothes, hanfu, thin, sharp eyes, dark blue robe, jade pendant, serious expression, scholar"
+        "features": "warring states period china, ancient chinese scholar, east asian features, black hair, thin man, sharp eyes, dark blue hanfu, jade pendant, bamboo scrolls, serious expression, chinese ink painting aesthetic",
+        "appearance_tags": "1boy, ancient china, warring states period, east asian, black hair, chinese clothes, hanfu, thin, sharp eyes, dark blue robe, jade pendant, serious expression, scholar, chinese historical"
       },
       "player_type": "ai",
       "image_color": "#2a3a50"

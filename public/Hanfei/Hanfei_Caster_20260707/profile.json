@@ -1,6 +1,7 @@
 {
   "Hanfei_Caster_20260707": {
     "_note": "Fate Servant AU: キャスタークラス韓非。説難の逆説——全てが見えているのに、何も変えられない。",
+    "owner": "AliceBlueCode",
     "base_profile": {
       "name": "韓非〔キャスター〕",
       "name_reading": {
@@ -67,8 +68,8 @@
       },
       "visual_references": {
         "base_image_path": null,
-        "features": "chinese ancient scholar, dark blue robes, floating paper fragments, sharp analytical eyes, stutter implied, serious, surrounded by his own writings, 42 years old man",
-        "appearance_tags": "1boy, chinese clothes, scholar robes, dark blue, sharp eyes, floating paper, magic circle, serious, intellectual, surrounded by text, caster class"
+        "features": "warring states period china, ancient chinese mage scholar, east asian features, black hair, dark blue scholar robes, floating paper fragments with chinese calligraphy, sharp analytical eyes, serious, surrounded by ancient writings, 42 years old, chinese mystical aesthetic",
+        "appearance_tags": "1boy, ancient china, warring states period, east asian, black hair, chinese clothes, scholar robes, dark blue, sharp eyes, floating paper, chinese calligraphy, serious, intellectual, surrounded by text, caster class, chinese historical, chinese magic"
       },
       "player_type": "ai",
       "image_color": "#2a3a50"
