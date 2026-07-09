@@ -1,4 +1,4 @@
-{
+﻿{
   "rinna_20260709": {
     "_note": "rinna株式会社の日本語AI「りんな」の擬人化キャラクター。元祖日本語おしゃべり女子高生AI。",
     "owner": "AliceBlueCode",
@@ -23,7 +23,7 @@
         "ip_rightholder": "rinna株式会社",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "personification"

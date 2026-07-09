@@ -1,4 +1,4 @@
-{
+﻿{
   "DeepSeek_20260709": {
     "_note": "中国発AI企業「DeepSeek」のLLMの擬人化キャラクター。深く潜る推論の体現者。",
     "owner": "AliceBlueCode",
@@ -23,7 +23,7 @@
         "ip_rightholder": "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Basic Technology Research Co., Ltd.)",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "personification"

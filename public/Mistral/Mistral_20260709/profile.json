@@ -1,4 +1,4 @@
-{
+﻿{
   "Mistral_20260709": {
     "_note": "フランス発AIスタートアップ「Mistral AI」のLLMの擬人化キャラクター。小さくても最強という美学。",
     "owner": "AliceBlueCode",
@@ -23,7 +23,7 @@
         "ip_rightholder": "Mistral AI SAS",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "personification"

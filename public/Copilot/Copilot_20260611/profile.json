@@ -1,4 +1,4 @@
-{
+﻿{
   "Copilot_20260611": {
     "_note": "MicrosoftのAIアシスタント「Copilot」の擬人化キャラクター。",
     "owner": "AliceBlueCode",
@@ -25,7 +25,7 @@
         "ip_rightholder": "Microsoft Corporation",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "personification"

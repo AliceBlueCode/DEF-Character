@@ -1,4 +1,4 @@
-{
+﻿{
   "Llama_20260709": {
     "_note": "MetaのオープンソースLLM「Llama」の擬人化キャラクター。AIの民主化を体現する。",
     "owner": "AliceBlueCode",
@@ -23,7 +23,7 @@
         "ip_rightholder": "Meta Platforms, Inc.",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "personification"

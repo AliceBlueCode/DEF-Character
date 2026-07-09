@@ -1,4 +1,4 @@
-{
+﻿{
   "Hanfei_Caster_20260707": {
     "_note": "Fate Servant AU: キャスタークラス韓非。説難の逆説——全てが見えているのに、何も変えられない。",
     "owner": "AliceBlueCode",
@@ -23,7 +23,7 @@
         "ip_rightholder": "TYPE-MOON / Aniplex",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "derivative"

@@ -1,4 +1,4 @@
-{
+﻿{
   "Hanfei_Lancer_20260707": {
     "_note": "Fate Servant AU: ランサークラス韓非。法・術・勢の三槍を統べ、矛盾を宝具に昇華した孤高の槍兵。",
     "owner": "AliceBlueCode",
@@ -23,7 +23,7 @@
         "ip_rightholder": "TYPE-MOON / Aniplex",
         "deceased_year": null,
         "copyright_expired": false,
-        "publish_restriction": "none",
+        "visibility": "public",
         "mentions_real_person": false,
         "mentioned_persons": [],
         "origin_type": "derivative"

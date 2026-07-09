@@ -113,7 +113,7 @@ private/
       "name": "キャラクターの名前",
       "identity_prompt": "一人称視点のキャラクター設定",
       "content_policy": {
-        "publish_restriction": "private",
+        "visibility": "private",
         "origin_type": "original"
       },
       "persona_attributes": {
@@ -131,12 +131,12 @@ private/
 
 これはDRMではありません。「このキャラクターは誰が作ったか」を宣言するためのフィールドです。将来、複数のリポジトリが並ぶコミュニティの中で、作者が識別できるようにするための仕組みです。
 
-### 4. publish_restriction について
+### 4. visibility について
 
 | 値 | 意味 |
 |---|---|
 | `"private"` | 自分のローカル専用。Gitにコミットしない |
-| `"none"` | 公開可能。`public/` に置いてコミットできる |
+| `"public"` | 公開可能。`public/` に置いてコミットできる |
 
 ---
 
@@ -148,7 +148,7 @@ private/
 
 **基本**
 - [ ] `owner` フィールドが設定されている
-- [ ] `publish_restriction: "none"` になっている
+- [ ] `visibility: "public"` になっている
 - [ ] `private/` 以下のデータが含まれていない
 
 **レーティング（GitHubの利用規約）**
@@ -157,10 +157,10 @@ private/
 - [ ] `appearance_age` が18未満の場合、`rating_sexual: "general"` になっている
 
 **出自（origin_type）**
-- [ ] `"derivative"`（二次創作）は `publish_restriction: "private"` 固定
+- [ ] `"derivative"`（二次創作）は `visibility: "private"` 固定
 - [ ] `"reconstructed_persona"`（歴史人物の再構築）は `copyright_expired: true`（没後70年以上）の場合のみ公開可
 - [ ] `"personification"`（既存IPの擬人化）は `ip_title` と `ip_rightholder` が設定されている
-- [ ] `is_real_person: true` の場合は `publish_restriction: "private"` 固定
+- [ ] `is_real_person: true` の場合は `visibility: "private"` 固定
 
 ---
 
@@ -212,3 +212,7 @@ DEF-Characterでは今すぐ使えます。
 このリポジトリは [AliceBlueCode](https://github.com/AliceBlueCode) が管理しています。
 
 キャラクタープロファイルの著作権は各 `owner` に帰属します。
+
+---
+
+> *Characters persist longer than conversations.*
