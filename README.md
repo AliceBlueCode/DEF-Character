@@ -1,4 +1,4 @@
-# DEF-Character
+# DEF(Character)
 
 **[English »](README_en.md) | [繁體中文 »](README_zh-TW.md) | [简体中文 »](README_zh-CN.md) | [한국어 »](README_ko.md) | [Español »](README_es.md)**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## DEF-Characterとは
+## DEF(Character)とは
 
-DEF-Characterは、[DEF(kari)](https://github.com/AliceBlueCode/DEF)と連携するキャラクターデータリポジトリです。
+DEF(Character)は、[DEF(kari)](https://github.com/AliceBlueCode/DEF)と連携するキャラクターデータリポジトリです。
 
 **キャラクターはプラットフォームから独立した資産です。**
 
@@ -210,7 +210,7 @@ Hanfei_20260611/乙女_20260706     ← キャラバザール版の韓非
 
 ブランチは失敗ではなく、もう一つの人生です。マージは行いません。世界線は独立したまま存在し続けます。
 
-DEF-Characterでは今すぐ使えます。
+DEF(Character)では今すぐ使えます。
 
 ---
 

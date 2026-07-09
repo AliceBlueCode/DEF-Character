@@ -1,4 +1,4 @@
-# DEF-Character
+﻿# DEF(Character)
 
 **[日本語 »](README.md) | [English »](README_en.md) | [繁體中文 »](README_zh-TW.md) | [简体中文 »](README_zh-CN.md) | [Español »](README_es.md)**
 
@@ -6,7 +6,7 @@
 
 ---
 
-## DEF-Character란?
+## DEF(Character)란?
 
 DEF-Character는 [DEF(kari)](https://github.com/AliceBlueCode/DEF)와 연동하는 캐릭터 데이터 저장소입니다.
 
@@ -210,7 +210,7 @@ Hanfei_20260611/乙女_20260706     ← 캐릭터 바자르판 한비
 
 브랜치는 실패가 아니라 또 하나의 인생입니다. 병합은 하지 않습니다. 세계선은 독립된 채로 존재하고 계속됩니다.
 
-DEF-Character에서는 지금 바로 사용할 수 있습니다.
+DEF(Character)에서는 지금 바로 사용할 수 있습니다.
 
 ---
 

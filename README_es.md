@@ -1,4 +1,4 @@
-# DEF-Character
+﻿# DEF(Character)
 
 **[日本語 »](README.md) | [English »](README_en.md) | [繁體中文 »](README_zh-TW.md) | [简体中文 »](README_zh-CN.md) | [한국어 »](README_ko.md)**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## ¿Qué es DEF-Character?
+## ¿Qué es DEF(Character)?
 
-DEF-Character es un repositorio de datos de personajes que funciona junto con [DEF(kari)](https://github.com/AliceBlueCode/DEF).
+DEF(Character) es un repositorio de datos de personajes que funciona junto con [DEF(kari)](https://github.com/AliceBlueCode/DEF).
 
 **Los personajes son activos independientes de cualquier plataforma.**
 
@@ -210,7 +210,7 @@ Hanfei_20260611/乙女_20260706     ← Hanfei del bazar de personajes
 
 Una rama no es un fracaso. Es otra vida. No fusionamos. Las líneas temporales existen de forma independiente, en paralelo, para siempre.
 
-DEF-Character lo admite ahora mismo.
+DEF(Character) lo admite ahora mismo.
 
 ---
 

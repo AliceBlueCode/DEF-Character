@@ -1,4 +1,4 @@
-# DEF-Character
+﻿# DEF(Character)
 
 **[日本語 »](README.md) | [繁體中文 »](README_zh-TW.md) | [简体中文 »](README_zh-CN.md) | [한국어 »](README_ko.md) | [Español »](README_es.md)**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## What is DEF-Character?
+## What is DEF(Character)?
 
-DEF-Character is a character data repository that works with [DEF(kari)](https://github.com/AliceBlueCode/DEF).
+DEF(Character) is a character data repository that works with [DEF(kari)](https://github.com/AliceBlueCode/DEF).
 
 **Characters are assets independent from any platform.**
 
@@ -210,7 +210,7 @@ Hanfei_20260611/乙女_20260706     ← Hanfei from the character bazaar
 
 A branch is not a failure. It is another life. We do not merge. Worldlines exist independently, in parallel, forever.
 
-DEF-Character supports this now.
+DEF(Character) supports this now.
 
 ---
 

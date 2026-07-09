@@ -1,4 +1,4 @@
-# DEF-Character
+﻿# DEF(Character)
 
 **[日本語 »](README.md) | [English »](README_en.md) | [简体中文 »](README_zh-CN.md) | [한국어 »](README_ko.md) | [Español »](README_es.md)**
 
@@ -6,9 +6,9 @@
 
 ---
 
-## DEF-Character 是什麼？
+## DEF(Character) 是什麼？
 
-DEF-Character 是與 [DEF(kari)](https://github.com/AliceBlueCode/DEF) 連動的角色資料儲存庫。
+DEF(Character) 是與 [DEF(kari)](https://github.com/AliceBlueCode/DEF) 連動的角色資料儲存庫。
 
 **角色是獨立於平台的資產。**
 
@@ -210,7 +210,7 @@ Hanfei_20260611/乙女_20260706     ← 角色市集版韓非
 
 分支不是失敗，而是另一種人生。不進行合併。世界線獨立存在，並行延續。
 
-DEF-Character 現在就能使用。
+DEF(Character) 現在就能使用。
 
 ---
 
