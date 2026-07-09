@@ -213,6 +213,9 @@ DEF-Characterでは今すぐ使えます。
 
 キャラクタープロファイルの著作権は各 `owner` に帰属します。
 
+このドキュメントは、`public/` の住人たちに査読してもらいました。
+自分たちの住処について、なかなか的確な意見をくれました。
+
 ---
 
 > *Characters persist longer than conversations.*
