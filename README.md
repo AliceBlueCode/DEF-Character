@@ -138,6 +138,8 @@ private/
 | `"private"` | 自分のローカル専用。Gitにコミットしない |
 | `"public"` | 公開可能。`public/` に置いてコミットできる |
 
+`visibility` と配置ディレクトリは一致させてください。`public/` に置くファイルは `visibility: "public"` が前提です。
+
 ---
 
 ## 公開キャラクターを追加する
