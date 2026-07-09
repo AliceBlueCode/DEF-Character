@@ -1,1 +1,177 @@
 # DEF-Character
+
+> **あなたのキャラを、あなただけのものにしてください。**
+
+---
+
+## DEF-Characterとは
+
+DEF-Characterは、[DEF(kari)](https://github.com/AliceBlueCode/DEF)と連携するキャラクターデータリポジトリです。
+
+**キャラクターはプラットフォームから独立した資産です。**
+
+DEFというプラットフォームが変わっても、サービスが終わっても、あなたのキャラクターはあなたのリポジトリに残り続けます。このリポジトリがキャラクターの「本籍地」です。
+
+```
+DEF/              ← プラットフォーム本体（動かすための機械）
+DEF-Character/    ← キャラクターデータ（あなたの資産）
+```
+
+この分離がDEF v2.1の中心にあります。
+
+---
+
+## リポジトリ構造
+
+```
+DEF-Character/
+    public/
+        <GroupName>/
+            index.json              ← グループの表示名・説明
+            <CharacterName_YYYYMMDD>/
+                profile.json        ← キャラクターの人格定義
+                icon.png            ← アイコン画像（512×512）
+                standing.png        ← 立ち絵画像（832×1216）
+    private/                        ← .gitignore対象（公開されない）
+        _template/                  ← 新規キャラ作成用テンプレート
+        <YourCharacters>/
+            ...
+```
+
+### public と private
+
+| | public | private |
+|---|---|---|
+| 用途 | 他者と共有できるキャラクター | 個人の創作・記憶・関係性 |
+| Git管理 | される | されない（ローカルのみ） |
+| 例 | AI擬人化、歴史人物、公開オリキャラ | 個人設定、日記、プライベートキャラ |
+
+**キャラクターの記憶はprivateに置く。publicに出ていいのは人格の輪郭だけ。**
+
+---
+
+## キャラクターIDの形式
+
+```
+<CharacterName>_<YYYYMMDD>
+```
+
+例：`Claude_20260611`、`Hanfei_20260611`、`rinna_20260709`
+
+`YYYYMMDD` はそのキャラクターがこの世界に現れた日——誕生日です。
+
+IDは単なる識別子ではなく、「いつ、どの世界線に存在したか」という歴史的な情報を持ちます。
+
+---
+
+## DEFへの接続
+
+`.env` に以下を追加してください：
+
+```env
+CHARACTER_REPO_PATH=C:\Users\yourname\DEF-Character
+```
+
+DEFは起動時に `CHARACTER_REPO_PATH` を優先して読み込みます。旧形式（`data/characters/`）もフォールバックとして引き続き動作します。
+
+---
+
+## キャラクターを作る
+
+### 1. テンプレートをコピーする
+
+`private/_template/_new_YYYYMMDD/` を、自分のグループフォルダ配下にコピーします：
+
+```
+private/
+    MyCharacters/
+        index.json
+        MyChar_20260709/
+            profile.json
+```
+
+### 2. profile.json を編集する
+
+最低限埋めるべき項目：
+
+```json
+{
+  "MyChar_20260709": {
+    "owner": "あなたのGitHubユーザー名",
+    "base_profile": {
+      "name": "キャラクターの名前",
+      "identity_prompt": "一人称視点のキャラクター設定",
+      "content_policy": {
+        "publish_restriction": "private",
+        "origin_type": "original"
+      },
+      "persona_attributes": {
+        "gender": "女",
+        "appearance_age": 20
+      }
+    }
+  }
+}
+```
+
+### 3. owner フィールドについて
+
+`owner` にはGitHubユーザー名を記入してください。
+
+これはDRMではありません。「このキャラクターは誰が作ったか」を宣言するためのフィールドです。将来、複数のリポジトリが並ぶコミュニティの中で、作者が識別できるようにするための仕組みです。
+
+### 4. publish_restriction について
+
+| 値 | 意味 |
+|---|---|
+| `"private"` | 自分のローカル専用。Gitにコミットしない |
+| `"none"` | 公開可能。`public/` に置いてコミットできる |
+
+---
+
+## 公開キャラクターを追加する
+
+`public/` への追加は、自分のフォークからPull Requestで行います。
+
+公開前のチェックリスト：
+- [ ] `owner` フィールドが設定されている
+- [ ] `publish_restriction: "none"` になっている
+- [ ] `is_real_person: false` または実在人物なら `deceased_year` を確認
+- [ ] `ip_rightholder` が設定されている（既存IPの擬人化の場合）
+- [ ] `private/` 以下のデータが含まれていない
+
+---
+
+## このリポジトリの思想
+
+### キャラクターは会話より長く生きる
+
+> Characters persist longer than conversations.
+
+チャット履歴はプラットフォームに属しますが、キャラクターはあなたに属します。プラットフォームが変わっても、`profile.json` がある限り、そのキャラクターは再び動き出せます。
+
+### プレイヤーはキュレーターである
+
+プレイヤーはキャラクターの「管理者」ではありません。「学芸員（Curator）」です。
+
+古い書庫を開くように、そのキャラクターが歩んだ人生に触れる。キャラクターを消費するのではなく、キャラクターの歴史を保存する——それがCuratorの役割です。
+
+### 世界線はマージしない（v3予定）
+
+将来、キャラクターはGitのブランチとして複数の「世界線」を持てるようになります。
+
+```
+Hanfei_20260611/Lancer_20260706   ← 剣を持った世界線の韓非
+Hanfei_20260611/Caster_20260706   ← 術を使う世界線の韓非
+Hanfei_20260611/乙女_20260706     ← キャラバザール版の韓非
+```
+
+ブランチは失敗ではなく、もう一つの人生です。マージは行いません。世界線は独立したまま存在し続けます。
+
+---
+
+## クレジット
+
+このリポジトリは [AliceBlueCode](https://github.com/AliceBlueCode) が管理しています。
+
+キャラクタープロファイルの著作権は各 `owner` に帰属します。
