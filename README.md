@@ -160,6 +160,18 @@ private/
 
 キャラクターはGitのブランチとして複数の「世界線」を持てます。
 
+ブランチIDの形式：
+
+```
+<CharacterID>/<WorldlineName>_<YYYYMMDD>
+```
+
+- `CharacterID` — 人格の基点となるキャラクターID（`Hanfei_20260611` など）
+- `WorldlineName` — その世界線の名前（クラス名・設定名・固有名詞など自由）
+- `YYYYMMDD` — その世界線が分岐した日
+
+例：
+
 ```
 Hanfei_20260611/Lancer_20260706   ← 剣を持った世界線の韓非
 Hanfei_20260611/Caster_20260706   ← 術を使う世界線の韓非
