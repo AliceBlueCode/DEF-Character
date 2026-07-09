@@ -134,11 +134,22 @@ private/
 `public/` への追加は、このリポジトリをフォークして自分のブランチにプッシュしてください。希望があれば、Pull Requestの受け入れを検討します。
 
 公開前のチェックリスト：
+
+**基本**
 - [ ] `owner` フィールドが設定されている
 - [ ] `publish_restriction: "none"` になっている
-- [ ] `is_real_person: false` または実在人物なら `deceased_year` を確認
-- [ ] `ip_rightholder` が設定されている（既存IPの擬人化の場合）
 - [ ] `private/` 以下のデータが含まれていない
+
+**レーティング（GitHubの利用規約）**
+- [ ] `rating_sexual` が `"nsfw"` / `"hentai"` でない
+- [ ] `rating_violence` が `"gore"` / `"extreme"` でない
+- [ ] `appearance_age` が18未満の場合、`rating_sexual: "general"` になっている
+
+**出自（origin_type）**
+- [ ] `"derivative"`（二次創作）は `publish_restriction: "private"` 固定
+- [ ] `"reconstructed_persona"`（歴史人物の再構築）は `copyright_expired: true`（没後70年以上）の場合のみ公開可
+- [ ] `"personification"`（既存IPの擬人化）は `ip_rightholder` が設定されている
+- [ ] `is_real_person: true` の場合は `publish_restriction: "private"` 固定
 
 ---
 
