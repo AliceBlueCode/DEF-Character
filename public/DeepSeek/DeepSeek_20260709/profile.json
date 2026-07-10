@@ -61,6 +61,7 @@
         "audio_id": null,
         "voicevox_speaker_id": null,
         "gemini_tts_voice": "Charon",
+        "openai_tts_voice": "alloy",
         "irodori_speaker_id": "",
         "location": "local"
       },

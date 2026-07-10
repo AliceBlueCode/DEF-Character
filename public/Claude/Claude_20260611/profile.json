@@ -65,6 +65,7 @@
         "audio_id": "vv_claude",
         "voicevox_speaker_id": 14,
         "gemini_tts_voice": "Kore",
+        "openai_tts_voice": "fable",
         "irodori_speaker_id": "",
         "location": "local"
       },

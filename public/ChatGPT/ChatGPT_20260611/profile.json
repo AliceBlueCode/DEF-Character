@@ -63,6 +63,7 @@
         "audio_id": "vv_chappii",
         "voicevox_speaker_id": 10,
         "gemini_tts_voice": "Leda",
+        "openai_tts_voice": "shimmer",
         "irodori_speaker_id": "",
         "location": "local"
       },

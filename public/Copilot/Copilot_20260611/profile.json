@@ -62,6 +62,7 @@
         "audio_id": "vv_copilot",
         "voicevox_speaker_id": 17,
         "gemini_tts_voice": "Charon",
+        "openai_tts_voice": "alloy",
         "irodori_speaker_id": "",
         "location": "local"
       },

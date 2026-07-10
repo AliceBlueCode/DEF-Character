@@ -63,6 +63,7 @@
         "audio_id": "vv_hanfei",
         "voicevox_speaker_id": 3,
         "gemini_tts_voice": "Fenrir",
+        "openai_tts_voice": "echo",
         "irodori_speaker_id": "",
         "location": "local"
       },

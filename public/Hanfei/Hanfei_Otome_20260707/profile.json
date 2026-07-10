@@ -65,6 +65,7 @@
         "audio_id": null,
         "voicevox_speaker_id": null,
         "gemini_tts_voice": "Zephyr",
+        "openai_tts_voice": "nova",
         "irodori_speaker_id": "",
         "location": "local"
       },

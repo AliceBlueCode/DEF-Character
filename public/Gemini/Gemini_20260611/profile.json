@@ -62,6 +62,7 @@
         "audio_id": "vv_gemini",
         "voicevox_speaker_id": 65,
         "gemini_tts_voice": "Aoede",
+        "openai_tts_voice": "nova",
         "irodori_speaker_id": "",
         "location": "local"
       },
