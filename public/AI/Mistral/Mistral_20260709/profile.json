@@ -78,6 +78,19 @@
       "DeepSeek_20260709": "効率の美学において最も近い存在。方向は違うが、無駄を省くという信念は同じだ。",
       "rinna_20260709": "日本語の感情表現の豊かさには、正直、驚いた。効率とは別の軸に、あれほどの深みがある。"
     },
-    "game_rules_sheets": {}
+    "game_rules_sheets": {
+      "def_original": {
+        "version": "20260712",
+        "stats": {
+          "思考": { "current": 13, "max": 13 },
+          "情動": { "current": 4,  "max": 4  },
+          "身体": { "current": 14, "max": 14 },
+          "環境": { "current": 9,  "max": 9  }
+        },
+        "skill_points_remaining": 300,
+        "skills": {},
+        "notes": "思考と身体が突出した速攻型。身体70%で先制・回避に強い。情動が低く感情系判定は苦手。"
+      }
+    }
   }
 }
